@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>Virtual AR Powered School Labs</title>
-</head>
-
 <body>
 
   <h1>Virtual AR Powered School Labs</h1>
