@@ -72,6 +72,8 @@ flutter:
      - lib/Assets/images/backgroundnew.jpeg
      - lib/Assets/images/black_background.jpeg
      - lib/Assets/images/box1.png
+     - lib/Assets/images/pendulum.gif
+     - lib/Assets/images/graph simple pendulum.gif
 
 
 
