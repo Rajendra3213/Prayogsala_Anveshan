@@ -14,6 +14,7 @@ class _landingPageState extends State<landingPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+
           body: Container(
             decoration: BoxDecoration(
               image: DecorationImage(
@@ -28,6 +29,18 @@ class _landingPageState extends State<landingPage> {
                   padding: EdgeInsets.all(50),
                   child: Column(
                     children: [
+                      Container(child: Column(
+                        children: [
+                          Icon(Icons.supervised_user_circle,color: Colors.white,),
+                          Text("Ram132",
+                            style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 12,
+                              height: 1.5
+                          ),)
+                        ],
+                      ),alignment:Alignment.topRight,),
+                      SizedBox(height:30,),
                       Row(
                         children:[
                           Expanded(
@@ -39,7 +52,17 @@ class _landingPageState extends State<landingPage> {
                                     // This list contains the text strings that you want to animate.
                                     animatedTexts: [
                                       TypewriterAnimatedText(
-                                        "Welcome to Prayogshala Anveshan",
+                                        "Welcome to",
+                                        textAlign: TextAlign.center,
+                                        textStyle: TextStyle(
+                                          fontSize: 24,
+                                          fontWeight: FontWeight.w700,
+                                          color: Colors.white,
+                                        ),
+                                        speed: const Duration(milliseconds: 150),
+                                      ),
+                                      TypewriterAnimatedText(
+                                        "Prayogshala Anveshan",
                                         textAlign: TextAlign.center,
                                         textStyle: TextStyle(
                                           fontSize: 24,

@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   animated_text_kit: ^4.2.2
+  url_launcher: ^6.1.11
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +65,8 @@ flutter:
      - lib/Assets/images/Chemistry Lab Chemical Logo 1.png
      - lib/Assets/images/image 1.png
      - lib/Assets/images/box1.png
+     - lib/Assets/images/background.gif
+     - lib/Assets/images/Chemistry.gif
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
