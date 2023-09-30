@@ -53,6 +53,14 @@ class _ExperimentPageState extends State<ExperimentPage> {
                             fontSize: 18,
                             fontWeight: FontWeight.w700
                         ),),
+                      SizedBox(height: 10,),
+                      ElevatedButton(
+                        onPressed: () {},
+                        style: ElevatedButton.styleFrom(
+                          primary: Color(0xFFFB9E13),
+                        ),
+                        child: Text("Enter VR lab"),
+                      ),
 
                     ],
                   ),
@@ -64,13 +72,6 @@ class _ExperimentPageState extends State<ExperimentPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    ElevatedButton(
-                      onPressed: () {},
-                      style: ElevatedButton.styleFrom(
-                        primary: Color(0xFFFB9E13),
-                      ),
-                      child: Text("Enter VR lab"),
-                    ),
                     SizedBox(height: 15,),
                     Text("Description",style: TextStyle(
                       color: Colors.white,
@@ -92,9 +93,22 @@ class _ExperimentPageState extends State<ExperimentPage> {
                             )
                           ],
                         ),
+                        SizedBox(width:45,),
                         Column(
                           children: [
-
+                            Text("Harmonic",
+                              style: TextStyle(
+                                fontSize: 24,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w800,
+                              ),),
+                            SizedBox(height: 10,),
+                            Text("Motion",
+                              style: TextStyle(
+                                fontSize: 24,
+                                color: Colors.white,
+                                fontWeight: FontWeight.w800,
+                              ),)
 
                           ],
                         )
