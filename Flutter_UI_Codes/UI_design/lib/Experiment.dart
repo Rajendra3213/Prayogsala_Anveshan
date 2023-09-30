@@ -1,6 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:hackfest/Expandable.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class ExperimentPage extends StatefulWidget {
   const ExperimentPage({super.key});
@@ -24,7 +25,7 @@ class _ExperimentPageState extends State<ExperimentPage> {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage(
-                      "lib/Assets/images/box1.png"
+                      "lib/Assets/images/physics-background-black-024246039_prevstill.webp"
                     ),
                     fit: BoxFit.cover
                   ),
@@ -59,7 +60,7 @@ class _ExperimentPageState extends State<ExperimentPage> {
                         style: ElevatedButton.styleFrom(
                           primary: Color(0xFFFB9E13),
                         ),
-                        child: Text("Enter VR lab"),
+                        child: Text("Enter AR lab"),
                       ),
 
                     ],
@@ -88,7 +89,6 @@ class _ExperimentPageState extends State<ExperimentPage> {
                             Text(
                                 "Fig:Geometrical Visualization",style: TextStyle(
                               color: Colors.white,
-
                             ),
                             )
                           ],
@@ -98,14 +98,14 @@ class _ExperimentPageState extends State<ExperimentPage> {
                           children: [
                             Text("Harmonic",
                               style: TextStyle(
-                                fontSize: 24,
+                                fontSize: 18,
                                 color: Colors.white,
                                 fontWeight: FontWeight.w800,
                               ),),
-                            SizedBox(height: 10,),
+                            SizedBox(height:5,),
                             Text("Motion",
                               style: TextStyle(
-                                fontSize: 24,
+                                fontSize: 18,
                                 color: Colors.white,
                                 fontWeight: FontWeight.w800,
                               ),)
@@ -117,8 +117,33 @@ class _ExperimentPageState extends State<ExperimentPage> {
                     ),
                     SizedBox(height: 10,),
                     ExpandableText(text:"The Logic Behind Momentum Conservation ΩConsider a collision between two objects - object 1 and object 2. For such a collision, the forces acting between the two objects are equal in magnitude and opposite in direction (Newton's third law). This statement can be expressed in equation form as follows. The forces act between the two objects for a given amount of time. In some cases, the time is long; in other cases the time is short. Regardless of how long the time is, it can be said that the time that the force acts upon object 1 is equal to the time that the force acts upon object 2. This is merely logical. Forces result from interactions (or contact) between two objects. If object 1 contacts object 2 for 0.050 seconds, then object 2 must be contacting object 1 for the same amount of time (0.050 seconds). As an equation, this can be stated asSince the forces between the two objects are equal in magnitude and opposite in direction, and since the times for which these forces act are equal in magnitude, it follows that the impulses experienced by the two objects are also equal in magnitude and opposite in direction. As an equation, this can be stated as")
+                    , SizedBox(height: 10,),
+                    Row(
+                      children: [
+                        Column(
+                          children: [
+                            Image.asset("lib/Assets/images/graph simple pendulum.gif"),
+                            Text("Graph trace for finding Periodic length",style:TextStyle(
+                              color: Colors.white
+                            ),)
+
+                          ],
+                        )
+                      ],
+                    ),
+                    ElevatedButton(
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all(Colors.transparent),
+                        elevation: MaterialStateProperty.all(0), // Set elevation to 0
+                      ),
+                      onPressed: _launchURL,
+                      child: Text('Research Paper and Data',style: TextStyle(
+                        color: Colors.blueAccent
+                      ),),
+                    )
 
                   ],
+
                 ),
               )
             ],
@@ -127,3 +152,17 @@ class _ExperimentPageState extends State<ExperimentPage> {
         ));
   }
 }
+Future<void> _launchURL() async {
+  const url ="https://www.grc.nasa.gov/www/k-12/airplane/conmo.html#:~:text=The%20conservation%20of%20momentum%20states,by%20Newton's%20laws%20of%20motion.";
+  try {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      print('Could not launch $url');
+    }
+  } catch (e) {
+    print('Error launching URL: $e');
+  }
+}
+
+

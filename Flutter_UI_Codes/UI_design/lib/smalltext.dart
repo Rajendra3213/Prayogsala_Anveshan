@@ -19,7 +19,7 @@ class SmallText extends StatelessWidget {
         color:Colors.white,
         fontSize: size,
         height: height,
-        fontWeight:FontWeight.w600 ,
+        fontWeight:FontWeight.w400 ,
       ),
     );
   }
