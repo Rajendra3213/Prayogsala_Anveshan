@@ -34,6 +34,7 @@ class _RowOneState extends State<RowOne> {
                   padding: EdgeInsets.only(top: (isHover) ? 25 : 30.0, bottom:!(isHover)? 25:30),
                   child: InkWell(
                     onTap: () {
+                      Navigator.pushNamed(context, '/third');
                     },
                     child: Container(
                       height: 150,
@@ -79,7 +80,7 @@ class _RowOneState extends State<RowOne> {
                   padding: EdgeInsets.only(top: (isHover1) ? 25 : 30.0, bottom:!(isHover1)? 25:30),
                   child: InkWell(
                     onTap: () {
-
+                      Navigator.pushNamed(context, '/third');
                     },
                     child: Container(
                       height: 150,
@@ -103,7 +104,7 @@ class _RowOneState extends State<RowOne> {
                       child: Center(
                         child: Align(
                           alignment: Alignment.bottomCenter,
-                          child: Text("Physics"
+                          child: Text("Chemistry"
                               ,
                               style: TextStyle(
                                   fontSize: 14,
@@ -116,12 +117,10 @@ class _RowOneState extends State<RowOne> {
                       padding: EdgeInsets.all(5),
                     ),
                   ),
-
                 )
-
-
               ],
-            )
+            ),
+
           ],
         ),
 

@@ -67,6 +67,12 @@ flutter:
      - lib/Assets/images/box1.png
      - lib/Assets/images/background.gif
      - lib/Assets/images/Chemistry.gif
+     - lib/Assets/images/pendulum.jpeg
+     - lib/Assets/images/pendulumback.jpeg
+     - lib/Assets/images/backgroundnew.jpeg
+     - lib/Assets/images/black_background.jpeg
+     - lib/Assets/images/box1.png
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

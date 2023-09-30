@@ -1,4 +1,7 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
+
 class loadingScreen extends StatefulWidget {
   const loadingScreen({super.key});
 
@@ -8,11 +11,20 @@ class loadingScreen extends StatefulWidget {
 
 class _loadingScreenState extends State<loadingScreen> {
   @override
+
+  void initState() {
+    super.initState();
+    Timer(Duration(seconds:3), () {
+      Navigator.pushNamed(context, '/second');
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body:Center(
         child: Column(
-         mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
               "lib/Assets/images/Chemistry Lab Chemical Logo 1.png",
@@ -22,12 +34,11 @@ class _loadingScreenState extends State<loadingScreen> {
             Text(
                 "Embrace New Learning",
                 style: TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w400,
-                  color: Colors.white
+                    fontSize: 14,
+                    fontWeight: FontWeight.w400,
+                    color: Colors.white
                 )
-            )
-
+            ),
           ],
         ),
       ),
