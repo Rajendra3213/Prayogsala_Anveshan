@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.auth0.auth0_flutter" >
+5
+6    <uses-sdk android:minSdkVersion="21" />
+6-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:4:5-67
+8-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:4:22-64
+9
+10    <application>
+10-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:6:5-21:19
+11        <activity
+11-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:7:9-20:20
+12            android:name="com.auth0.android.provider.RedirectActivity"
+12-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:8:13-71
+13            android:exported="true" >
+13-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:8:72-95
+14            <intent-filter>
+14-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:9:13-19:29
+15                <action android:name="android.intent.action.VIEW" />
+15-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:10:17-69
+15-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:10:25-66
+16
+17                <category android:name="android.intent.category.DEFAULT" />
+17-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:12:17-76
+17-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:12:27-73
+18                <category android:name="android.intent.category.BROWSABLE" />
+18-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:13:17-78
+18-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:13:27-75
+19
+20                <data
+21                    android:host="test-domain"
+21-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:16:21-50
+22                    android:pathPrefix="/android/${applicationId}/callback"
+22-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:17:21-76
+23                    android:scheme="test" />
+23-->C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\auth0_flutter-1.2.1\android\src\main\AndroidManifest.xml:18:21-52
+24            </intent-filter>
+25        </activity>
+26    </application>
+27
+28</manifest>

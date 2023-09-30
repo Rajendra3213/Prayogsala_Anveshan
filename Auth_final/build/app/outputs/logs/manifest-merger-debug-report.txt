@@ -1,0 +1,236 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:7:4-37:19
+MERGED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-26:19
+MERGED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-26:19
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:24:5-48:19
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:24:5-48:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\bd642b8b656b37eb31a733cc093832a8\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\bd642b8b656b37eb31a733cc093832a8\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\8a4357f96530bc320c03d9f0dc2daab2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\8a4357f96530bc320c03d9f0dc2daab2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\bd642b8b656b37eb31a733cc093832a8\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:1:1-38:12
+MERGED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:1:1-38:12
+MERGED from [:external_app_launcher] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\external_app_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-28:12
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:4:1-50:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\f8c60a121c4c8d86cc832180f52524b4\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\448b9f2b1c35325337fba9013e9c39f8\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\DELL\.gradle\caches\transforms-3\b032caed77a100d50ad23d83d3410135\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\DELL\.gradle\caches\transforms-3\9d14400717d712c2b0ccd21926a9d931\transformed\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\72e6b0ec47b03602f4eb5550ebcc17ef\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\f53a00580f4dee64f9e796f2e904cd39\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\fb718b45667682ac67a513aa354909e1\transformed\jetified-androidbrowserhelper-2.4.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a361739469f4a669799ef6d1359e647c\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\0cc34ac6ddd6f07ac5d7422e694affd6\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\8689d0db589a4ab4fc77bcdc889f88f2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\f601e55f08d9a8c45f1463dc925bb5dd\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b052207bf9312c63521154faaa1f2602\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\fd38e84b510412808585f72d1b653217\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\092eda76bbf7f1fbd1be0a14373b93fa\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9891697fb8e0d8fc6d55dfe2c550e390\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\bd642b8b656b37eb31a733cc093832a8\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\8a4357f96530bc320c03d9f0dc2daab2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\69e5240ca6bc8233b4037a217cd1599b\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\649352a269038789cef58bd8ce890521\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\9d4cf25347f6a53d0d3cd9a3f9d19b60\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d70479a204ebc4d968585f1342e57598\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\5fd7089bad3adf093b8844fabefca69f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\6bcbd6e8ae404a67131fcf07809c8106\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\1d85c27981eb8be12cc5e2ff97a1d179\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\e4d3866fb4e24293263abe03a56eeaee\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\.gradle\caches\transforms-3\4650babcc572a4f48194ac31d4b3dd5d\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\8286a8c73e719543075a2a8314045dc2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:2:5-31
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:1:1-38:12
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:1:1-38:12
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:4:4-66
+MERGED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:4:4-66
+MERGED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:4:4-66
+MERGED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
+MERGED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:12:5-67
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:4:21-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:5:4-78
+	android:name
+		ADDED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml:5:21-75
+uses-sdk
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml
+MERGED from [:external_app_launcher] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\external_app_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:external_app_launcher] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\external_app_launcher\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-44
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\f8c60a121c4c8d86cc832180f52524b4\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\f8c60a121c4c8d86cc832180f52524b4\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\448b9f2b1c35325337fba9013e9c39f8\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\448b9f2b1c35325337fba9013e9c39f8\transformed\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\DELL\.gradle\caches\transforms-3\b032caed77a100d50ad23d83d3410135\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\DELL\.gradle\caches\transforms-3\b032caed77a100d50ad23d83d3410135\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\DELL\.gradle\caches\transforms-3\9d14400717d712c2b0ccd21926a9d931\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\DELL\.gradle\caches\transforms-3\9d14400717d712c2b0ccd21926a9d931\transformed\jetified-activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\72e6b0ec47b03602f4eb5550ebcc17ef\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\72e6b0ec47b03602f4eb5550ebcc17ef\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\f53a00580f4dee64f9e796f2e904cd39\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\f53a00580f4dee64f9e796f2e904cd39\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\fb718b45667682ac67a513aa354909e1\transformed\jetified-androidbrowserhelper-2.4.0\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\fb718b45667682ac67a513aa354909e1\transformed\jetified-androidbrowserhelper-2.4.0\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a361739469f4a669799ef6d1359e647c\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\DELL\.gradle\caches\transforms-3\a361739469f4a669799ef6d1359e647c\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\0cc34ac6ddd6f07ac5d7422e694affd6\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\DELL\.gradle\caches\transforms-3\0cc34ac6ddd6f07ac5d7422e694affd6\transformed\jetified-appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\8689d0db589a4ab4fc77bcdc889f88f2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\8689d0db589a4ab4fc77bcdc889f88f2\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\f601e55f08d9a8c45f1463dc925bb5dd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\f601e55f08d9a8c45f1463dc925bb5dd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b052207bf9312c63521154faaa1f2602\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\b052207bf9312c63521154faaa1f2602\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\fd38e84b510412808585f72d1b653217\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\fd38e84b510412808585f72d1b653217\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\092eda76bbf7f1fbd1be0a14373b93fa\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\092eda76bbf7f1fbd1be0a14373b93fa\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9891697fb8e0d8fc6d55dfe2c550e390\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\9891697fb8e0d8fc6d55dfe2c550e390\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\bd642b8b656b37eb31a733cc093832a8\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-3\bd642b8b656b37eb31a733cc093832a8\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\8a4357f96530bc320c03d9f0dc2daab2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-3\8a4357f96530bc320c03d9f0dc2daab2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\69e5240ca6bc8233b4037a217cd1599b\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\69e5240ca6bc8233b4037a217cd1599b\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\649352a269038789cef58bd8ce890521\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\649352a269038789cef58bd8ce890521\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\9d4cf25347f6a53d0d3cd9a3f9d19b60\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\9d4cf25347f6a53d0d3cd9a3f9d19b60\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d70479a204ebc4d968585f1342e57598\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\d70479a204ebc4d968585f1342e57598\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\5fd7089bad3adf093b8844fabefca69f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\5fd7089bad3adf093b8844fabefca69f\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\6bcbd6e8ae404a67131fcf07809c8106\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\6bcbd6e8ae404a67131fcf07809c8106\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\1d85c27981eb8be12cc5e2ff97a1d179\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-3\1d85c27981eb8be12cc5e2ff97a1d179\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\e4d3866fb4e24293263abe03a56eeaee\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\DELL\.gradle\caches\transforms-3\e4d3866fb4e24293263abe03a56eeaee\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\.gradle\caches\transforms-3\4650babcc572a4f48194ac31d4b3dd5d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\DELL\.gradle\caches\transforms-3\4650babcc572a4f48194ac31d4b3dd5d\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\8286a8c73e719543075a2a8314045dc2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\8286a8c73e719543075a2a8314045dc2\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\android\app\src\debug\AndroidManifest.xml
+activity#com.auth0.android.provider.RedirectActivity
+ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-25:20
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:31:9-47:20
+MERGED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:31:9-47:20
+	android:exported
+		ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:test-domain+data:pathPrefix:/android/${applicationId}/callback+data:scheme:test
+ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-24:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:test-domain+data:pathPrefix:/android/com.auth0.sample/callback+data:scheme:test
+ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-24:29
+action#android.intent.action.VIEW
+ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:15:25-66
+category#android.intent.category.DEFAULT
+ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-76
+	android:name
+		ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:17:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-78
+	android:name
+		ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:18:27-75
+data
+ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-23:45
+	android:host
+		ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:21:21-47
+	android:scheme
+		ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:23:21-42
+	android:pathPrefix
+		ADDED from [:auth0_flutter] C:\Users\DELL\OneDrive\Desktop\Flutter\sample\sample\build\auth0_flutter\intermediates\merged_manifest\debug\AndroidManifest.xml:22:21-76
+queries
+ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:14:5-22:15
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\fb718b45667682ac67a513aa354909e1\transformed\jetified-androidbrowserhelper-2.4.0\AndroidManifest.xml:26:5-34:15
+MERGED from [com.google.androidbrowserhelper:androidbrowserhelper:2.4.0] C:\Users\DELL\.gradle\caches\transforms-3\fb718b45667682ac67a513aa354909e1\transformed\jetified-androidbrowserhelper-2.4.0\AndroidManifest.xml:26:5-34:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:15:9-21:18
+activity#com.auth0.android.provider.AuthenticationActivity
+ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:25:9-30:75
+	android:launchMode
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:29:13-44
+	android:exported
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:28:13-37
+	android:configChanges
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:27:13-115
+	android:theme
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:30:13-72
+	android:name
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:26:13-77
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${auth0Domain}+data:pathPrefix:/android/${applicationId}/callback+data:scheme:${auth0Scheme}
+ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:34:13-46:29
+	android:autoVerify
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:35:17-42
+	tools:targetApi
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:36:17-36
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:dev-ke6j7nmw8jhuyp85.us.auth0.com+data:pathPrefix:/android/com.auth0.sample/callback+data:scheme:https
+ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:34:13-46:29
+	android:autoVerify
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:35:17-42
+	tools:targetApi
+		ADDED from [com.auth0.android:auth0:2.10.1] C:\Users\DELL\.gradle\caches\transforms-3\ded96038867bddeef6366fff36896f71\transformed\jetified-auth0-2.10.1\AndroidManifest.xml:36:17-36
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-3\0d16abcdcdeedd7b16c484f9de215efc\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
