@@ -14,108 +14,124 @@ class _landingPageState extends State<landingPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-
           body: Container(
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage("lib/Assets/images/image 1.png"),
-                fit: BoxFit. cover
-                ,
-              ),
-            ),
-            child: Column(
-              children: [
-                Padding(
-                  padding: EdgeInsets.all(50),
-                  child: Column(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("lib/Assets/images/image 1.png"),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: Column(
+          children: [
+            Padding(
+              padding: EdgeInsets.all(50),
+              child: Column(
+                children: [
+                  Container(
+                    child: Column(
+                      children: [
+                        GestureDetector(
+                            onTap: () {
+                              Navigator.pushNamed(context, '/user');
+                            },
+                            child: Icon(
+                              Icons.supervised_user_circle,
+                              color: Colors.white,
+                            )),
+                        Text(
+                          "Ram132",
+                          style: TextStyle(
+                              color: Colors.white, fontSize: 12, height: 1.5),
+                        )
+                      ],
+                    ),
+                    alignment: Alignment.topRight,
+                  ),
+                  SizedBox(
+                    height: 30,
+                  ),
+                  Row(
                     children: [
-                      Container(child: Column(
-                        children: [
-                          Icon(Icons.supervised_user_circle,color: Colors.white,),
-                          Text("Ram132",
-                            style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 12,
-                              height: 1.5
-                          ),)
-                        ],
-                      ),alignment:Alignment.topRight,),
-                      SizedBox(height:30,),
-                      Row(
-                        children:[
-                          Expanded(
-                            child: Center(
-                              child: Column(
-                                children: [
-                                  Image.asset("lib/Assets/images/Chemistry Lab Chemical Logo 1.png",scale: 4,),
-                                  AnimatedTextKit(
-                                    // This list contains the text strings that you want to animate.
-                                    animatedTexts: [
-                                      TypewriterAnimatedText(
-                                        "Welcome to",
-                                        textAlign: TextAlign.center,
-                                        textStyle: TextStyle(
-                                          fontSize: 24,
-                                          fontWeight: FontWeight.w700,
-                                          color: Colors.white,
-                                        ),
-                                        speed: const Duration(milliseconds: 150),
-                                      ),
-                                      TypewriterAnimatedText(
-                                        "Prayogshala Anveshan",
-                                        textAlign: TextAlign.center,
-                                        textStyle: TextStyle(
-                                          fontSize: 24,
-                                          fontWeight: FontWeight.w700,
-                                          color: Colors.white,
-                                        ),
-                                        speed: const Duration(milliseconds: 150),
-                                      ),
-                                      TypewriterAnimatedText(
-                                        "Powered with AR",
-                                        textStyle: TextStyle(
-                                          fontSize: 24,
-                                          fontWeight: FontWeight.w700,
-                                          color: Colors.white,
-                                        ),
-                                        speed: const Duration(milliseconds: 100),
-                                      ),
-                                    ],
-                                    // Slow down the animation by half.
-                                    repeatForever: true, // Loop the animation.
-                                  ),
-                                  SizedBox(height:10,),
-                                  Container(
-                                    width: 250,  // Set the desired width
-                                    // color: Color(0xFF212629),  // Set the desired background color
-                                    padding: EdgeInsets.all(8.0),  // Optional: Add padding for some space around the text
-                                    child: Text(
-                                      "Explore science with Virtual AR School Labs for an engaging, collaborative learning experience.",
-                                      textAlign: TextAlign.center,
-                                      style: TextStyle(
-                                        fontSize: 14,
-                                        fontWeight: FontWeight.w400,  // Corrected typo: FontWeight.w400
-                                        color: Colors.white, // Optional: Set the text color
-                                      ),
-                                    ),
-                                  )
-
-                                ],
+                      Expanded(
+                        child: Center(
+                          child: Column(
+                            children: [
+                              Image.asset(
+                                "lib/Assets/images/Chemistry Lab Chemical Logo 1.png",
+                                scale: 4,
                               ),
-                            ),
-                          )
-                        ],
-                      ),
-                      SizedBox(height:20,),
-                      RowOne(),
-
+                              AnimatedTextKit(
+                                // This list contains the text strings that you want to animate.
+                                animatedTexts: [
+                                  TypewriterAnimatedText(
+                                    "Welcome to",
+                                    textAlign: TextAlign.center,
+                                    textStyle: TextStyle(
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.w700,
+                                      color: Colors.white,
+                                    ),
+                                    speed: const Duration(milliseconds: 150),
+                                  ),
+                                  TypewriterAnimatedText(
+                                    "Prayogshala Anveshan",
+                                    textAlign: TextAlign.center,
+                                    textStyle: TextStyle(
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.w700,
+                                      color: Colors.white,
+                                    ),
+                                    speed: const Duration(milliseconds: 150),
+                                  ),
+                                  TypewriterAnimatedText(
+                                    "Powered with AR",
+                                    textStyle: TextStyle(
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.w700,
+                                      color: Colors.white,
+                                    ),
+                                    speed: const Duration(milliseconds: 100),
+                                  ),
+                                ],
+                                // Slow down the animation by half.
+                                repeatForever: true, // Loop the animation.
+                              ),
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Container(
+                                width: 250, // Set the desired width
+                                // color: Color(0xFF212629),  // Set the desired background color
+                                padding: EdgeInsets.all(
+                                    8.0), // Optional: Add padding for some space around the text
+                                child: Text(
+                                  "Explore science with Virtual AR School Labs for an engaging, collaborative learning experience.",
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight
+                                        .w400, // Corrected typo: FontWeight.w400
+                                    color: Colors
+                                        .white, // Optional: Set the text color
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      )
                     ],
                   ),
-                )
-              ],
-            ),
-          )
-      ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  RowOne(),
+                ],
+              ),
+            )
+          ],
+        ),
+      )),
     );
   }
 }

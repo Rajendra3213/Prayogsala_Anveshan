@@ -4,6 +4,7 @@ import 'package:hackfest/OnClick.dart';
 import 'package:hackfest/landingPage.dart';
 import 'package:hackfest/loadingScreen.dart';
 import 'package:hackfest/loginDetails.dart';
+import 'package:hackfest/userprofile.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,12 +18,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/': (context) =>LoginDemo(),
-        '/first': (context) =>loadingScreen(),
+        '/': (context) => LoginDemo(),
+        '/first': (context) => loadingScreen(),
         '/second': (context) => landingPage(),
         '/third': (context) => OnClick(),
         '/fourth': (context) => ExperimentPage(),
-
+        '/user':(context) => UserInfo()
       },
       // home: LoginDemo(),
       debugShowCheckedModeBanner: false,
